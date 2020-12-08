@@ -1,0 +1,47 @@
+
+.shop-head {
+    text-align: center;
+}
+
+.shop-nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.shop-nav ul li {
+    list-style: none;
+    padding-right: 20px;
+}
+
+.shop-nav ul li a {
+    text-decoration: none;
+    color: #494949;
+    font-weight: 700;
+}
+
+.all {
+    max-width: 800px;
+}
+
+.all-block {
+    display: block;
+    
+}
+
+.all-block>h1 {
+    font-size: 60px;
+}
+
+.menu-block {
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    margin-bottom: 100px;
+}
+
+.menu-block img {
+    max-width: 500px;
+    min-width: 500px;
+    height: 300px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.11);
+}

@@ -1,0 +1,57 @@
+.contact-box {
+    background: url(../img/rectangle-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.contact-box__inner {
+    padding: 100px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.phone {
+    padding-right: 150px;
+    position: relative;
+}
+
+.phone::before {
+    background: url('img/phone.png');
+    width: 512px;
+    height: 512px;
+    position: absolute;
+}
+
+.top {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 60px;
+}
+
+.top > img {
+    width: 120px;
+    height: 120px;
+}
+
+.social {
+    margin-top: 150px;
+}
+
+.social_inner {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social_inner > a > img {
+    width: 80px;
+    padding-right: 50px;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+.news-block {
+    background: url(../img/rectangle-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.news-block__inner {
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.news-block__inner>p {
+    max-width: 300px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+}
