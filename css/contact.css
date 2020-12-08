@@ -11,18 +11,6 @@
     font-size: 40px;
 }
 
-.phone {
-    padding-right: 150px;
-    position: relative;
-}
-
-.phone::before {
-    background: url('img/phone.png');
-    width: 512px;
-    height: 512px;
-    position: absolute;
-}
-
 .top {
     display: flex;
     justify-content: start;
@@ -54,4 +42,37 @@
 h2 {
     font-size: 50px;
     text-align: center;
+}
+
+@media (max-width: 500px) {
+    .top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+    .top > img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contact-box__inner {
+        padding: 100px;
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .social {
+        margin-top: 50px;
+    }
+    .social_inner {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .social_inner > a > img {
+        width: 40px;
+        padding-right: 10px;
+    }
 }
